@@ -12,32 +12,31 @@ Enhance application performance using caching (Faisal, Rafi)
 
 Run the following to install redis:
 
-~~~
+```
 sudo apt-get install redis-server
-~~~
+```
 
 ## APCu
 
 Run the following to install apcu:
 
-~~~
+```
 sudo apt-get install php5-apcu
-~~~
+```
 
 Then enable apcu by including the following in your `php.ini`:
 
-~~~
+```
 [apc]
 apc.enabled=true
 apc.enable_cli=true
-~~~
+```
 
 ## Memcached
 
 Run the following to install memcached:
 
-~~~
+```
 sudo apt-get install memcached
 sudo apt-get install php5-memcached
-~~~
-4. provides docs on findings and show an demo application with cache integration - [demo](http://nascenia.com)
+```
