@@ -1,4 +1,10 @@
 {
     "require": {
+        "doctrine/orm": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nascenia\\": "src/"
+        }
     }
 }
