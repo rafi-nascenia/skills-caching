@@ -2,7 +2,8 @@
 
 require 'vendor/autoload.php';
 
-$client = new Predis\Client;
+$client = new Redis;
+$client->connect('127.0.0.1');
 
 $client->set('nascenia', 'foobar');
 
