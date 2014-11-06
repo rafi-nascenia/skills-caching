@@ -14,6 +14,7 @@ Run the following to install redis:
 
 ```
 sudo apt-get install redis-server
+sudo apt-get install php5-redis
 ```
 
 ## APCu

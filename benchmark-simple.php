@@ -8,7 +8,8 @@ $runs = 1000;
  * Redis
  */
 
-$redis = new Predis\Client;
+$redis = new Redis;
+$redis->connect('127.0.0.1');
 
 $timer = microtime(true);
 for ($i = 0; $i < $runs; $i++) {
